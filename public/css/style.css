@@ -9900,43 +9900,44 @@ body header {
   padding: 0%;
   display: flex;
   justify-content: center;
+}
+body header nav {
   padding: 0px;
   background-color: white;
-  background-color: white;
 }
-body header .couleur {
+body header nav .couleur {
   display: flex;
   margin: 0;
   margin-right: 50px;
   margin-left: 50px;
 }
-body header .couleur .connexion {
+body header nav .connexion {
   background-color: grey;
   color: white;
 }
-body header .couleur .blanc {
+body header nav .blanc {
   background-color: white;
   border-radius: 10%;
 }
-body header .couleur .noir {
+body header nav .noir {
   background-color: black;
   border-radius: 10%;
-}
-body header .navbar {
   background-color: white;
 }
-body header .navbar ul {
+body header nav .navbar {
   background-color: white;
 }
-body header .navbar ul li {
+body header nav .navbar ul {
+  background-color: white;
+}
+body header nav .navbar li {
   display: flex;
   margin: 0;
   justify-content: right;
   background-color: white;
-  height: 100%;
   margin-right: 50px;
 }
-body header .navbar ul li a {
+body header nav .navbar li a {
   background-color: white;
   color: black;
 }
@@ -9944,6 +9945,54 @@ body div h1 {
   justify-content: center;
   display: flex;
   margin: 5%;
+}
+body section {
+  margin: 50px;
+}
+body section .container-fluid .row, body section .container-sm .row, body section .container-md .row, body section .container-lg .row, body section .container-xl .row {
+  display: flex;
+  background-color: #F3F3F3;
+}
+body section .container-fluid .row .gauche, body section .container-sm .row .gauche, body section .container-md .row .gauche, body section .container-lg .row .gauche, body section .container-xl .row .gauche {
+  background-color: #F3F3F3;
+}
+body section .container-fluid .row .gauche h2, body section .container-sm .row .gauche h2, body section .container-md .row .gauche h2, body section .container-lg .row .gauche h2, body section .container-xl .row .gauche h2 {
+  color: #EA3732;
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+body section .container-fluid .row .gauche button, body section .container-sm .row .gauche button, body section .container-md .row .gauche button, body section .container-lg .row .gauche button, body section .container-xl .row .gauche button {
+  color: white;
+  background-color: #EA3732;
+  display: flex;
+  border-radius: 40%;
+}
+body section .container-fluid .row .gauche button p, body section .container-sm .row .gauche button p, body section .container-md .row .gauche button p, body section .container-lg .row .gauche button p, body section .container-xl .row .gauche button p {
+  margin: 10%;
+}
+body section .container-fluid .row .gauche h1, body section .container-sm .row .gauche h1, body section .container-md .row .gauche h1, body section .container-lg .row .gauche h1, body section .container-xl .row .gauche h1 {
+  padding: 0;
+  font-weight: bold;
+  font-size: 500%;
+}
+body section .container-fluid .row .droite img, body section .container-sm .row .droite img, body section .container-md .row .droite img, body section .container-lg .row .droite img, body section .container-xl .row .droite img {
+  height: 50%;
+}
+body .section2 .row .premier h1 {
+  color: white;
+  background-image: url("../../public/img/services/service-1.jpg");
+  text-decoration: underline;
+}
+body .section2 .row .deuxieme h1 {
+  color: white;
+  background-image: url("../../public/img/services/service-2.jpg");
+  text-decoration: underline;
+}
+body .section2 .row .troisieme h1 {
+  color: white;
+  background-image: url("../../public/img/services/slider-3.jpg");
+  text-decoration: underline;
 }
 
 /*# sourceMappingURL=style.css.map */
