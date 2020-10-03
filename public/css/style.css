@@ -10028,5 +10028,15 @@ body .section4 {
 body .section4 div h1 {
   color: white;
 }
+body .section5 {
+  background-color: none;
+}
+body .section5 .container {
+  background-color: white;
+}
+body .section5 .container .row .shay img {
+  width: 400px;
+  height: 200px;
+}
 
 /*# sourceMappingURL=style.css.map */
