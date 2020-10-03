@@ -9895,6 +9895,12 @@ h3 {
 }
 body {
   font-family: "poppins";
+  overflow-x: hidden;
+}
+body .titre h1 {
+  justify-content: center;
+  display: flex;
+  margin: 5%;
 }
 body header {
   padding: 0%;
@@ -9941,58 +9947,86 @@ body header nav .navbar li a {
   background-color: white;
   color: black;
 }
-body div h1 {
-  justify-content: center;
-  display: flex;
-  margin: 5%;
-}
 body section {
-  margin: 50px;
+  margin: 5% 0%;
+  background-color: #f3f3f3;
 }
-body section .container-fluid .row, body section .container-sm .row, body section .container-md .row, body section .container-lg .row, body section .container-xl .row {
+body section .lamya {
   display: flex;
-  background-color: #F3F3F3;
+  margin-left: 25%;
 }
-body section .container-fluid .row .gauche, body section .container-sm .row .gauche, body section .container-md .row .gauche, body section .container-lg .row .gauche, body section .container-xl .row .gauche {
-  background-color: #F3F3F3;
+body section .lamya .texte button {
+  border-radius: 50%;
 }
-body section .container-fluid .row .gauche h2, body section .container-sm .row .gauche h2, body section .container-md .row .gauche h2, body section .container-lg .row .gauche h2, body section .container-xl .row .gauche h2 {
-  color: #EA3732;
+body section .lamya .texte img {
+  width: 80%;
+}
+body section .lamya .img2 img {
+  width: 50%;
+}
+body .section2 .row {
+  flex-wrap: nowrap;
+}
+body .section2 .row .premier {
+  margin-left: 2%;
+}
+body .section2 .row .premier .salut {
   display: flex;
-  padding: 0;
-  margin: 0;
-}
-body section .container-fluid .row .gauche button, body section .container-sm .row .gauche button, body section .container-md .row .gauche button, body section .container-lg .row .gauche button, body section .container-xl .row .gauche button {
-  color: white;
-  background-color: #EA3732;
-  display: flex;
-  border-radius: 40%;
-}
-body section .container-fluid .row .gauche button p, body section .container-sm .row .gauche button p, body section .container-md .row .gauche button p, body section .container-lg .row .gauche button p, body section .container-xl .row .gauche button p {
-  margin: 10%;
-}
-body section .container-fluid .row .gauche h1, body section .container-sm .row .gauche h1, body section .container-md .row .gauche h1, body section .container-lg .row .gauche h1, body section .container-xl .row .gauche h1 {
-  padding: 0;
-  font-weight: bold;
-  font-size: 500%;
-}
-body section .container-fluid .row .droite img, body section .container-sm .row .droite img, body section .container-md .row .droite img, body section .container-lg .row .droite img, body section .container-xl .row .droite img {
-  height: 50%;
-}
-body .section2 .row .premier h1 {
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 200px;
   color: white;
   background-image: url("../../public/img/services/service-1.jpg");
   text-decoration: underline;
 }
-body .section2 .row .deuxieme h1 {
+body .section2 .row .deuxieme .bonjour {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 200px;
   color: white;
   background-image: url("../../public/img/services/service-2.jpg");
   text-decoration: underline;
+  margin-left: 5px;
 }
-body .section2 .row .troisieme h1 {
+body .section2 .row .troisieme .aurevoir {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 200px;
   color: white;
   background-image: url("../../public/img/services/slider-3.jpg");
   text-decoration: underline;
+}
+body .section3 .haha h1 {
+  justify-content: center;
+  display: flex;
+}
+body .section3 .container .row .lala del {
+  color: red;
+}
+body .section3 .container .row .lala h5 {
+  justify-content: center;
+  display: flex;
+}
+body .section3 .container .row .lili del {
+  color: #EA3732;
+}
+body .section3 .container .row .lili .rond {
+  background-color: #EA3732;
+  border-radius: 100px;
+}
+body .section4 {
+  background-position: center;
+  background-image: url("../../public/img/cta-bg.jpg");
+  background-color: none;
+  padding: 15%;
+}
+body .section4 div h1 {
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */

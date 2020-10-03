@@ -1,66 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./public/css/style.css">
-</head>
-<body>
-    <!-- Navbar -->
-    
-    <div class="titre"><h1>emporium.</h1></div>
-    <header>
-    <nav class="navbar navbar-expand-lg navbar-white bg-white">
 
-        <div class="navbar" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item active">
-              <a class="nav-link disabled" href="#">HOME<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item active">
-                <a class="nav-link disabled" href="#">PRODUCT<span class="sr-only">(current)</span></a>
-              </li>
-            <li class="nav-item active">
-              <a class="nav-link disabled" href="#">BLOG<span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">ELEMENTS</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">ABOUT</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">CONTACT</a>
-            </li>
-            <div class="couleur">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./public/css/style.css">
+</head>
+
+<body>
+  <!-- Navbar -->
+
+  <div class="titre">
+    <h1>emporium.</h1>
+  </div>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-white bg-white">
+      <div class="navbar" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link disabled" href="#">HOME<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link disabled" href="#">PRODUCT<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link disabled" href="#">BLOG<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">ELEMENTS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">ABOUT</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#">CONTACT</a>
+          </li>
+          <div class="couleur">
             <button class="blanc"></button>
             <button class="noir"></button>
             <button class="connexion">CONNEXION</button>
-        </div>
-          </ul>
-        </div>
-      </nav>
-    </header>
-    <!-- Fin de navbar -->
-
-    <!-- Section1-->
-
-    <section>
-      <div class="container-fluid">
-
-    <div class="row">
-      <div class="gauche col-6">
-        <h2>Shop at</h2>
-      <h1>emporium.</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum fugit hic vero maiores ab dolores obcaecati magni?</p>
-      <button><P>SALE ITEMS</P></button>
+          </div>
+        </ul>
       </div>
-      <div class="droite col-6">
+    </nav>
+  </header>
+  <!-- Fin de navbar -->
+
+  <!-- Section1-->
+
+  <section>
+    <div class="lamya">
+      <div class="texte m-5 ">
+        <h1 class="text-danger">
+          Shop at
+        </h1>
+        <img src="./public/img/logo.png" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod quisquam eveniet doloremque. Illo magnam
+          suscipit est possimus.</p>
+        <button type="button" class="btn btn-danger">SALE ITEMS</button>
+      </div>
+      <div class="img2">
         <img src="./public/img/slider-1.jpg" alt="">
       </div>
     </div>
-  </div>
   </section>
   <!-- Fin section1 -->
 
@@ -68,15 +71,21 @@
   <section class="section2">
     <div class="row">
       <div class="premier col-4">
-        <h1>Living Room</h1>
+        <div class="salut">
+          <h1>Living Room</h1>
+        </div>
 
       </div>
       <div class="deuxieme col-4">
-        <h1>Sale Items</h1>
+        <div class="bonjour">
+          <h1>Sale Items</h1>
+        </div>
 
       </div>
       <div class="troisieme col-4">
-        <h1>Clothes</h1>
+        <div class="aurevoir">
+          <h1>Clothes</h1>
+        </div>
 
       </div>
 
@@ -84,7 +93,97 @@
 
   </section>
 
-    <script src="./public/js/main.js"></script>
-    
+  <!-- Fin section2 -->
+  <!-- Section3 -->
+  <div class="section3">
+    <div class="haha">
+      <h1 class="m-5">Recents Products</h1>
+    </div>
+    <!-- Ligne 1 -->
+    <div class="container">
+      <div class="row">
+        <div class="lala col-4">
+          <img class="img-fluid" src="./public/img/products_mini/product-luxry-sofa.jpg" alt="">
+          <h5 class="text-center mt-5">Luxury Sofa</h5>
+          <h5 class="text-danger text-center">$600.00</h5>
+        </div>
+        <div class="lili col-4">
+          <img class="img-fluid" src="./public/img/products_mini/product-gloves.jpg" alt="">
+          <h5 class="text-center mt-5">Leather Gloves</h5>
+          <button class="rond text-white btn btn-danger">SALES!</button>
+          <del class="text-center">$34.00</del>
+          <h5 class="text-center text-danger"> $27.00</h5>
+        </div>
+        <div class="lolo col-4">
+          <img class="img-fluid" src="./public/img/products_mini/product-cups.jpg" alt="">
+          <h5 class="mt-5 text-center">Colorful Bowl</h5>
+          <h5 class="text-center text-danger">$18.00</h5>
+        </div>
+
+      </div>
+    </div>
+    <!-- Ligne 2 -->
+    <div class="container ">
+      <div class="row">
+        <div class="lala1 col-4">
+          <img class="img-fluid" src="./public/img/products_mini/product-bag.jpg" alt="">
+          <h5 class="text-center mt-5">Women Bag</h5>
+          <button class="d-flex text-white btn btn-danger mt-5 d-flex">SALES!</button>
+          <del class="text-center">$420.00</del>
+          <h5 class="text-center text-danger">$350.00</h5>
+        </div>
+        <div class="lili1 col-4">
+          <img class="img-fluid" src="./public/img/products_mini/product-tshitr.jpg" alt="">
+          <h5 class="mt-5 text-center">Minimal T-shirt</h5>
+          <h5 class="text-danger text-center">$15.00</h5>
+        </div>
+        <div class="lolo1 col-4">
+          <img class="img-fluid" src="./public/img/products_mini/product-plates.jpg" alt="">
+          <h5 class="text-center mt-5">Plates Set</h5>
+          <h5 class="text-center text-danger">$30.00</h5>
+        </div>
+
+      </div>
+    </div>
+    <!-- Ligne 3 -->
+    <div class="container">
+      <div class="row">
+        <div class="lala2 col-4">
+          <img class="img-fluid" src="./public/img/products_mini/product-modern-sofa.jpg" alt="">
+          <h5 class="text-center mt-5">Modern Sofa Sofa</h5>
+          <h5 class="text-center text-danger">$900.00</h5>
+        </div>
+        <div class="lili2 col-4">
+          <img class="img-fluid" src="./public/img/products_mini/product-bed.jpg" alt="">
+
+          <h5 class="titre text-center mt-5">Bed Linen</h5>
+          <h5 class="text-center text-danger"> $79.00</h5>
+        </div>
+        <div class="lolo2 col-4">
+          <img class="img-fluid" src="./public/img/products_mini/product-shoes.jpg" alt="">
+          <h5 class="text-center mt-5">Minimal Shoes</h5>
+          <h5 class="text-danger text-center">$60.00</h5>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- Fin section 3 -->
+  <!-- Section 4 -->
+  <section class="section4 d-flex justify-content-center align-items-center">
+    <div class="text-center">
+      <h1>Discover Thousands Of Great Products</h1>
+      <button type="button" class="btn btn-danger">LEARN MORE</button>
+
+    </div>
+
+   
+
+  </section>
+
+  <script src="./public/js/main.js"></script>
+
 </body>
+
 </html>
